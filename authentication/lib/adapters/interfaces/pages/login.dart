@@ -31,7 +31,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
@@ -85,7 +85,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
@@ -112,7 +112,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
@@ -139,7 +139,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
@@ -166,7 +166,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
@@ -193,7 +193,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 style: OutlinedButton.styleFrom(
                   alignment: Alignment.centerLeft,
-                  fixedSize: const Size(235, 40),
+                  fixedSize: const Size(245, 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                   ),
