@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401675165745",
+    "project_id": "playground-20240324",
+    "storage_bucket": "playground-20240324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401675165745:android:4fae5d64199ad76b4c3510",
+        "android_client_info": {
+          "package_name": "com.toshiakiezaki.playground"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJUT8SAiNQRSMwueJ81HNENssOWPBbHfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

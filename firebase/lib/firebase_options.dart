@@ -27,49 +27,59 @@ class DefaultFirebaseOptions {
         return ios;
       case TargetPlatform.macOS:
         return macos;
+      case TargetPlatform.windows:
+        return windows;
       default:
         throw UnsupportedError(
-            'DefaultFirebaseOptions are not supported for this platform.');
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
     }
   }
 
-  // TODO (codelab user): Replace with your Firebase credentials
   // Generate this file with credentials with the FlutterFire CLI
+
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    authDomain: 'flutterfire-ui-codelab.firebaseapp.com',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
-    measurementId: 'MEASUREMENT ID',
+    apiKey: 'AIzaSyDY_2XPUxtjat1xm1_4qRTEsQ5_-VxoBfs',
+    appId: '1:401675165745:web:919652b7879011174c3510',
+    messagingSenderId: '401675165745',
+    projectId: 'playground-20240324',
+    authDomain: 'playground-20240324.firebaseapp.com',
+    storageBucket: 'playground-20240324.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
+    apiKey: 'AIzaSyBJUT8SAiNQRSMwueJ81HNENssOWPBbHfw',
+    appId: '1:401675165745:android:4fae5d64199ad76b4c3510',
+    messagingSenderId: '401675165745',
+    projectId: 'playground-20240324',
+    storageBucket: 'playground-20240324.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
-    iosClientId: 'IOS CLIENT ID',
-    iosBundleId: 'com.example.BUNDLE',
+    apiKey: 'AIzaSyBwWXdLdo4_6ADJoy6wiGtLo9E81_e4-Jg',
+    appId: '1:401675165745:ios:6c4e10b28db2cbc44c3510',
+    messagingSenderId: '401675165745',
+    projectId: 'playground-20240324',
+    storageBucket: 'playground-20240324.appspot.com',
+    iosBundleId: 'com.example.complete',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'YOUR API KEY',
-    appId: 'YOUR APP ID',
-    messagingSenderId: '',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.appspot.com',
-    iosClientId: 'IOS CLIENT ID',
-    iosBundleId: 'com.example.BUNDLE',
+    apiKey: 'AIzaSyBwWXdLdo4_6ADJoy6wiGtLo9E81_e4-Jg',
+    appId: '1:401675165745:ios:bfa29b91c51e4c904c3510',
+    messagingSenderId: '401675165745',
+    projectId: 'playground-20240324',
+    storageBucket: 'playground-20240324.appspot.com',
+    iosBundleId: 'com.toshiakiezaki.playground',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyDY_2XPUxtjat1xm1_4qRTEsQ5_-VxoBfs',
+    appId: '1:401675165745:web:b0033a9a6591b8a94c3510',
+    messagingSenderId: '401675165745',
+    projectId: 'playground-20240324',
+    authDomain: 'playground-20240324.firebaseapp.com',
+    storageBucket: 'playground-20240324.appspot.com',
+  );
+
 }
