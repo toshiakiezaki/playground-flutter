@@ -1,3 +1,4 @@
+import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -17,6 +18,7 @@ class HomeScreen extends StatelessWidget {
               'Welcome!',
               style: Theme.of(context).textTheme.displaySmall,
             ),
+            const SignOutButton(),
           ],
         ),
       ),
