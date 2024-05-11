@@ -13,11 +13,12 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('dash.png'),
-            Text(
-              'Welcome!',
-              style: Theme.of(context).textTheme.displaySmall,
+            Image.asset(
+              'dash.png',
+              width: 500,
+              height: 500,
             ),
+            Text('Welcome!', style: Theme.of(context).textTheme.displaySmall),
             const SignOutButton(),
           ],
         ),
